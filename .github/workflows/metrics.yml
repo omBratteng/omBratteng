@@ -12,7 +12,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.3
         with:
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_TOKEN }}
@@ -25,3 +25,4 @@ jobs:
           base: header, activity, community
           config_timezone: Europe/Oslo
           plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
