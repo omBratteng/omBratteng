@@ -31,3 +31,8 @@ jobs:
 
           # Achievement plugin
           plugin_achievements: yes
+
+          # Notable contributions
+          plugin_notable: yes
+          plugin_notable_filter: stars:>500
+          plugin_notable_repositories: yes
