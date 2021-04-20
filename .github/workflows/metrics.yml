@@ -24,5 +24,10 @@ jobs:
           template: classic
           base: header, activity, community
           config_timezone: Europe/Oslo
+
+          # Language plugin
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
+
+          # Achievement plugin
+          plugin_achievements: yes
