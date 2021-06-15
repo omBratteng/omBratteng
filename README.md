@@ -18,4 +18,4 @@
 - Developer at [The National Archives of Norway](https://www.arkivverket.no/en)
 - Loves a freshly brewed cup of coffee
 
-![Metrics](https://github.com/omBratteng/omBratteng/blob/main/github-metrics.svg)
+![Metrics](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/github-metrics.svg)
