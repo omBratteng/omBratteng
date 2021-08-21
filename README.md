@@ -13,6 +13,14 @@
       alt="LinkedIn"
     />
   </a>
+
+  <a href="https://api.daily.dev/get?r=omBratteng" target="_blank">
+    <img
+      width="256"
+      style="float:right"
+      src="https://raw.githubusercontent.com/omBratteng/action-devcard/devcard/devcard.svg"
+    />
+  </a>
 </div>
 
 <br />
