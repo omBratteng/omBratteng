@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: devcard
-        uses: omBratteng/action-devcard@1.0.0
+        uses: omBratteng/action-devcard@1.1.0
         with:
           hash: ${{ secrets.DEVCARD_HASH }}
           commit_branch: devcard
