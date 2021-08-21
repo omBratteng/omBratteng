@@ -17,7 +17,7 @@
   <a href="https://api.daily.dev/get?r=omBratteng" target="_blank">
     <img
       width="256"
-      style="float:right"
+      align="right"
       src="https://raw.githubusercontent.com/omBratteng/action-devcard/devcard/devcard.svg"
     />
   </a>
