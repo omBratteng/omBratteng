@@ -1,4 +1,4 @@
-name: Metrics
+name: devcard
 
 on:
   workflow_dispatch:
