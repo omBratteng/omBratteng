@@ -15,6 +15,6 @@ jobs:
       - name: devcard
         uses: omBratteng/action-devcard@1.2.0
         with:
-          hash: ${{ secrets.DEVCARD_HASH }}
+          devcard_id: ${{ secrets.DEVCARD_HASH }}
           commit_branch: devcard
           commit_message: "chore: update ${filename}"
