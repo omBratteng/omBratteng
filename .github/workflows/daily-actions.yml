@@ -1,4 +1,4 @@
-name: Metrics
+name: daily-actions
 
 on:
   workflow_dispatch:
@@ -9,6 +9,16 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
+  devcard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: devcard
+        uses: dailydotdev/action-devcard@2.0.0
+        with:
+          devcard_id: ${{ secrets.DEVCARD_ID }}
+          commit_branch: devcard
+          commit_message: "chore: update ${filename}"
+          
   github-metrics:
     runs-on: ubuntu-latest
     steps:
