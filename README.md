@@ -18,7 +18,7 @@
     <img
       width="256"
       align="right"
-      src="https://raw.githubusercontent.com/omBratteng/action-devcard/devcard/devcard.svg"
+      src="https://raw.githubusercontent.com/omBratteng/omBratteng/devcard/devcard.svg"
     />
   </a>
 </div>
