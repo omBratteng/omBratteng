@@ -47,5 +47,5 @@ jobs:
 
           # Notable contributions
           plugin_notable: yes
-          plugin_notable_filter: stars:>500
+          plugin_notable_filter: stars:>150
           plugin_notable_repositories: yes
