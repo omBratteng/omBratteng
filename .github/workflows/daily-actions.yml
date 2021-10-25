@@ -1,4 +1,4 @@
-name: daily-actions
+name: daily-devcard
 
 on:
   workflow_dispatch:
@@ -18,34 +18,3 @@ jobs:
           devcard_id: ${{ secrets.DEVCARD_ID }}
           commit_branch: devcard
           commit_message: "chore: update ${filename}"
-          
-  github-metrics:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@v3.14
-        with:
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_branch: github-metrics
-          committer_message: "build: update `${filename}`"
-
-          # Options
-          user: omBratteng
-          template: classic
-          base: header, activity, community
-          config_timezone: Europe/Oslo
-
-          # Language plugin
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
-
-          # Achievement plugin
-          plugin_achievements: yes
-          plugin_achievements_threshold: B
-
-          # Notable contributions
-          plugin_notable: yes
-          plugin_notable_filter: stars:>150
-          plugin_notable_repositories: yes
