@@ -31,3 +31,6 @@
 - Loves a freshly brewed cup of coffee
 
 ![Metrics](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/github-metrics.svg)
+![Most used languages](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/language.svg)
+![Notable contributions](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/notable.svg)
+![Achievements](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/achievements.svg)
