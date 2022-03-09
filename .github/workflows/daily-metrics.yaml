@@ -9,7 +9,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:   
-  github-metrics:
+  stats:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@v3.21
@@ -27,15 +27,78 @@ jobs:
           base: header, activity, community
           config_timezone: Europe/Oslo
 
-          # Language plugin
-          plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
+  notable:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@v3.21
+        with:
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: github-metrics
+          committer_message: "build: update `${filename}`"
 
-          # Achievement plugin
-          plugin_achievements: yes
-          plugin_achievements_threshold: B
+          # Options
+          user: omBratteng
+          template: classic
+          base: ""
+          config_display: large
+          config_timezone: Europe/Oslo
+          config_output: svg
+          filename: notable.svg
 
           # Notable contributions
           plugin_notable: yes
           plugin_notable_filter: stars:>150
           plugin_notable_repositories: yes
+
+  language:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@v3.21
+        with:
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: github-metrics
+          committer_message: "build: update `${filename}`"
+
+          # Options
+          user: omBratteng
+          template: classic
+          base: ""
+          config_display: large
+          config_timezone: Europe/Oslo
+          config_output: svg
+          filename: language.svg
+
+          # Language plugin
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+
+  achievements:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@v3.21
+        with:
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: github-metrics
+          committer_message: "build: update `${filename}`"
+
+          # Options
+          user: omBratteng
+          template: classic
+          base: ""
+          config_display: large
+          config_timezone: Europe/Oslo
+          config_output: svg
+          filename: achievements.svg
+
+          # Achievement plugin
+          plugin_achievements: yes
+          plugin_achievements_threshold: B
