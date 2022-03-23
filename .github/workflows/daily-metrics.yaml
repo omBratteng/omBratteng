@@ -51,7 +51,6 @@ jobs:
           # Notable contributions
           plugin_notable: yes
           plugin_notable_filter: stars:>75
-          plugin_notable_repositories: yes
 
   language:
     runs-on: ubuntu-latest
