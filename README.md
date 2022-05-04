@@ -23,8 +23,6 @@
   </a>
 </div>
 
-<br />
-
 ## I am Ole-Martin Bratteng
 
 - Developer at [The National Archives of Norway](https://www.arkivverket.no/en)
