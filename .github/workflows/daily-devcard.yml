@@ -1,5 +1,8 @@
 name: daily-devcard
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   push:
