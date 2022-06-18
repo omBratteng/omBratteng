@@ -97,6 +97,7 @@ jobs:
           config_timezone: Europe/Oslo
           config_output: svg
           filename: achievements.svg
+          repositories_batch: 5
 
           # Achievement plugin
           plugin_achievements: yes
