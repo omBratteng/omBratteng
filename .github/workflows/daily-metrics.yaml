@@ -46,6 +46,7 @@ jobs:
           config_display: large
           config_timezone: Europe/Oslo
           config_output: svg
+          config_padding: 0, 30
           filename: notable.svg
 
           # Notable contributions
