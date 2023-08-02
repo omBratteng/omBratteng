@@ -31,7 +31,7 @@
 
 ## I am Ole-Martin Bratteng
 
-- Developer at [The National Archives of Norway](https://www.arkivverket.no/en)
+- Software Engineer at [daily.dev](https://daily.dev/)
 - Loves a freshly brewed cup of coffee
 
 ![Metrics](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/github-metrics.svg)
