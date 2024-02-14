@@ -20,11 +20,11 @@
     />
   </a>
 
-  <a href="https://api.daily.dev/get?r=omBratteng" target="_blank">
+  <a href="https://dly.to/cdK4fjS0H6s" target="_blank">
     <img
       width="256"
       align="right"
-      src="https://raw.githubusercontent.com/omBratteng/omBratteng/devcard/devcard.svg"
+      src="https://raw.githubusercontent.com/omBratteng/omBratteng/devcard/devcard.png"
     />
   </a>
 </div>
