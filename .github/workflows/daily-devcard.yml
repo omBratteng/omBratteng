@@ -41,6 +41,7 @@ jobs:
       - name: Add devcard on background
         run: |
           composite -compose Over -gravity center devcard.png background.jpg devcard-background.jpg
+          composite -compose Over -gravity center devcard.png background.jpg devcard-background.webp
 
       - name: Commit and push
         run: |
