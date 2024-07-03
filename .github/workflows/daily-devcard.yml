@@ -45,6 +45,6 @@ jobs:
 
       - name: Commit and push
         run: |
-          git add devcard-background.jpg
+          git add devcard-background.jpg devcard-background.webp
           git commit -m "chore: update devcard background"
           git push origin devcard
