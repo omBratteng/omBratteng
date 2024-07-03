@@ -25,6 +25,7 @@ jobs:
     needs: devcard
     runs-on: ubuntu-latest
     permissions:
+      id-token: write # Enable OIDC
       contents: write
     steps:
       - uses: actions/checkout@v4
