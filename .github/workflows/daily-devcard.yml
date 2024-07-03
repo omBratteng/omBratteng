@@ -20,3 +20,29 @@ jobs:
           user_id: ${{ secrets.DAILYDEV_USER_ID }}
           commit_branch: devcard
           commit_message: "chore: update ${filename}"
+
+  devcard-background:
+    needs: devcard
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: devcard
+
+      - uses: chainguard-dev/actions/setup-gitsign@main
+
+      - name: Setup git
+        run: |
+          git config --global tag.gpgsign true
+
+      - name: Add devcard on background
+        run: |
+          composite -compose Over -gravity center devcard.png background.jpg devcard-background.jpg
+
+      - name: Commit and push
+        run: |
+          git add devcard-background.jpg
+          git commit -m "chore: update devcard background"
+          git push origin devcard
