@@ -25,6 +25,7 @@
       width="256"
       align="right"
       src="https://raw.githubusercontent.com/omBratteng/omBratteng/devcard/devcard.png"
+      alt="My daily.dev devcard"
     />
   </a>
 </div>
