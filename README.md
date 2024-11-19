@@ -37,5 +37,3 @@
 ![Metrics](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/github-metrics.svg)
 ![Notable contributions](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/notable.svg)
 ![Achievements](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/achievements.svg)
-
-<!--[![@ombratteng's Holopin board](https://holopin.io/api/user/board?user=ombratteng)](https://holopin.io/@ombratteng)-->
