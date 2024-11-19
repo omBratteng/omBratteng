@@ -29,7 +29,7 @@
   </a>
 </div>
 
-## I am Ole-Martin Bratteng
+### I am Ole-Martin Bratteng
 
 - Software Engineer at [daily.dev](https://daily.dev/)
 - Loves a freshly brewed cup of coffee
