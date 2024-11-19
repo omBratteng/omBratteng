@@ -13,12 +13,6 @@
       alt="LinkedIn"
     />
   </a>
-  <a rel="me" href="https://cloud-native.social/@omBratteng">
-    <img
-      src="https://img.shields.io/mastodon/follow/109437637721057155?color=blueviolet&domain=https%3A%2F%2Fcloud-native.social&label=Mastodon&logo=mastodon&logoColor=white&style=flat-square"
-      alt="Cloud Native Mastodon"
-    />
-  </a>
 
   <a href="https://dly.to/cdK4fjS0H6s" target="_blank">
     <img
