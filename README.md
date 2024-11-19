@@ -3,14 +3,20 @@
 <div align="left">
   <a href="https://twitter.com/omBratteng">
     <img
-      src="https://img.shields.io/twitter/follow/omBratteng?label=Twitter&logo=twitter&style=flat-square&color=1da1f2&logoColor=ffffff"
-      alt="Twitter"
+      src="https://img.shields.io/badge/X%20(Twitter)-0e1217?logo=x&style=flat-square"
+      alt="X"
     />
   </a>
   <a href="https://www.linkedin.com/in/ombratteng/">
     <img
-      src="https://img.shields.io/static/v1?logo=linkedin&style=flat-square&color=0072b1&label=LinkedIn&message=%E2%98%86"
+      src="https://img.shields.io/badge/LinkedIn-0e1217?logo=linkedin&style=flat-square"
       alt="LinkedIn"
+    />
+  </a>
+  <a href="https://bsky.app/profile/bratteng.com">
+    <img
+      src="https://img.shields.io/badge/Bluesky-0e1217?logo=bluesky&style=flat-square"
+      alt="Bluesky"
     />
   </a>
 
