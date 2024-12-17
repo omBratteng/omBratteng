@@ -43,9 +43,10 @@ jobs:
         run: |
           magick composite -compose Over -gravity center devcard.png background.jpg devcard-background.jpg
           magick composite -compose Over -gravity center devcard.png background.jpg miff:- | magick - -quality 90 devcard-background.webp
+          magick composite -compose Over -gravity center devcard.png background.jpg miff:- | magick - -quality 90 devcard-background.avif
 
       - name: Commit and push
         run: |
-          git add devcard-background.jpg devcard-background.webp
+          git add devcard-background.jpg devcard-background.webp devcard-background.avif
           git commit -m "chore: update devcard background"
           git push origin devcard
