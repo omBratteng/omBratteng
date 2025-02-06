@@ -34,6 +34,7 @@
 
 - Software Engineer at [daily.dev](https://daily.dev/)
 - Loves a freshly brewed cup of coffee
+- Maintainer of [distroless Node.js](https://github.com/GoogleContainerTools/distroless/tree/main/nodejs)
 
 ![Metrics](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/github-metrics.svg)
 ![Notable contributions](https://raw.githubusercontent.com/omBratteng/omBratteng/github-metrics/notable.svg)
