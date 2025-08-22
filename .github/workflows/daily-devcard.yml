@@ -32,7 +32,7 @@ jobs:
         with:
           ref: devcard
 
-      - uses: mfinelli/setup-imagemagick@v6
+      - uses: mfinelli/setup-imagemagick@v7
       - uses: chainguard-dev/actions/setup-gitsign@main
 
       - name: Setup git
