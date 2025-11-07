@@ -25,6 +25,9 @@ jobs:
           user: omBratteng
           template: classic
           base: header, activity, community
+          base_indepth: true
+          base_hireable: true
+          repositories: 500
           config_timezone: Europe/Oslo
 
   notable:
@@ -51,36 +54,7 @@ jobs:
 
           # Notable contributions
           plugin_notable: yes
-          plugin_notable_filter: stars:>25
-          
-  notable2:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@v3.34
-        with:
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_TOKEN }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_branch: github-metrics
-          committer_message: "build: update `${filename}`"
-
-          # Options
-          user: omBratteng
-          template: classic
-          base: ""
-          config_display: large
-          config_timezone: Europe/Oslo
-          config_output: svg
-          config_padding: 0, 30
-          filename: notable2.svg
-
-          # Notable contributions
-          plugin_notable: yes
-          plugin_notable_filter: stars:>25
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
-          plugin_notable_from: all
+          plugin_notable_filter: stars:>20
 
   achievements:
     runs-on: ubuntu-latest
