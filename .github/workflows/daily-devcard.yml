@@ -48,5 +48,9 @@ jobs:
       - name: Commit and push
         run: |
           git add devcard-background.jpg devcard-background.webp devcard-background.avif
-          git commit -m "chore: update devcard background"
-          git push origin devcard
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update devcard background"
+            git push origin devcard
+          else
+            echo "No changes to commit."
+          fi
