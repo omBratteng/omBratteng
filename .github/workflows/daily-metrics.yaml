@@ -25,8 +25,8 @@ jobs:
           user: omBratteng
           template: classic
           base: header, activity, community
-          base_indepth: true
-          base_hireable: true
+          base_indepth: yes
+          base_hireable: yes
           repositories: 500
           config_timezone: Europe/Oslo
 
@@ -55,6 +55,9 @@ jobs:
           # Notable contributions
           plugin_notable: yes
           plugin_notable_filter: stars:>20
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit,pull_request
 
   achievements:
     runs-on: ubuntu-latest
