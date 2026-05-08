@@ -32,7 +32,7 @@
 
 ### I am Ole-Martin Bratteng
 
-- Software Engineer at [daily.dev](https://daily.dev/)
+- Senior Advisor at [Skatteetaten](https://www.skatteetaten.no/)
 - Loves a freshly brewed cup of coffee
 - Maintainer of [distroless Node.js](https://github.com/GoogleContainerTools/distroless/tree/main/nodejs)
 
